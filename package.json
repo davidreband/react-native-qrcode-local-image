@@ -1,29 +1,49 @@
 {
-    "name": "@remobile/react-native-qrcode-local-image",
-    "version": "1.0.4",
-    "qrcode-local-imagecription": "A local qrcode image parse for react-native",
-    "main": "index.js",
-    "author": {
-        "name": "YunJiang.Fang",
-        "email": "42550564@qq.com"
-    },
-    "license": "MIT",
-    "keywords": [
-        "react-native",
-        "react-component",
-        "ios",
-        "android",
-        "qrcode",
-        "local-image",
-        "remobile",
-        "mobile"
-    ],
-    "homepage": "https://github.com/remobile/react-native-qrcode-local-image",
-    "bugs": {
-        "url": "https://github.com/remobile/react-native-qrcode-local-image/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/remobile/react-native-qrcode-local-image.git"
-    }
+  "name": "@remobile/react-native-qrcode-local-image",
+  "version": "1.0.4",
+  "qrcode-local-imagecription": "A local qrcode image parse for react-native",
+  "main": "index.js",
+  "author": {
+    "name": "YunJiang.Fang",
+    "email": "42550564@qq.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "qrcode",
+    "local-image",
+    "remobile",
+    "mobile"
+  ],
+  "homepage": "https://github.com/remobile/react-native-qrcode-local-image",
+  "bugs": {
+    "url": "https://github.com/remobile/react-native-qrcode-local-image/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/remobile/react-native-qrcode-local-image.git"
+  },
+  "react-native": {
+    "crypto": "react-native-crypto",
+    "path": "path-browserify",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  },
+  "browser": {
+    "crypto": "react-native-crypto",
+    "path": "path-browserify",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  }
 }
